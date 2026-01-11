@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anish Sauda | AI/ML Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <a href="#" class="logo">
+            <span class="logo-text">AS.</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+          </ul>
+          <button class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span class="greeting">Hello, I'm</span>
+              <span class="name">Anish Sauda</span>
+            </h1>
+            <p class="hero-subtitle">AI/ML Intern & Full Stack Developer</p>
+            <p class="hero-description">
+              Passionate about building intelligent solutions with data science
+              and machine learning. Currently pursuing Master of Computer
+              Applications with focus on advanced computing and software
+              development.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            <div class="quick-links">
+              <a href="mailto:Saudaanish103@gmail.com" class="quick-link">
+                <i class="fas fa-envelope"></i>
+                <span>Saudaanish103@gmail.com</span>
+              </a>
+              <a href="tel:+919650276873" class="quick-link">
+                <i class="fas fa-phone"></i>
+                <span>+91-9650276873</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/anish-sauda-162b68307/"
+                target="_blank"
+                class="quick-link"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="visual-element">
+              <div class="code-snippet">
+                <div class="code-header">
+                  <div class="code-dots">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                  </div>
+                  <span class="code-title">stock_prediction.py</span>
+                </div>
+                <pre class="code-content">
+<span class="code-keyword">import</span> tensorflow <span class="code-keyword">as</span> tf
+<span class="code-keyword">from</span> keras.layers <span class="code-keyword">import</span> LSTM, Dense
+
+<span class="code-comment"># Stock price prediction model</span>
+model = Sequential([
+    LSTM(50, return_sequences=True),
+    LSTM(50, return_sequences=False),
+    Dense(25),
+    Dense(1)
+])
+
+model.compile(optimizer='adam',
+              loss='mean_squared_error')
+<span class="code-comment"># Anish Sauda | Meta-Fiser Intern</span></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Professional Journey</span>
+          <h2 class="section-title">Experience</h2>
+        </div>
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="company-info">
+              <h3 class="company-name">Meta-Fiser</h3>
+              <p class="company-role">AI/ML Intern</p>
+            </div>
+            <div class="experience-period">
+              <span class="period">Jun. 2024- Aug. 2024</span>
+            </div>
+          </div>
+          <div class="experience-details">
+            <ul class="experience-list">
+              <li>
+                <i class="fas fa-chart-line"></i>
+                <span
+                  >Built stock price prediction models using Linear Regression &
+                  LSTM on time-series data</span
+                >
+              </li>
+              <li>
+                <i class="fas fa-database"></i>
+                <span
+                  >Handled data preprocessing, EDA, and feature engineering
+                  using Python</span
+                >
+              </li>
+              <li>
+                <i class="fas fa-bolt"></i>
+                <span
+                  >Developed an automated evaluation pipeline, speeding up model
+                  iteration and deployment</span
+                >
+              </li>
+              <li>
+                <i class="fas fa-chart-bar"></i>
+                <span
+                  >Contributed to model tuning and visualization
+                  dashboards</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+        </div>
+        <div class="education-timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-circle"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="education-header">
+                <h3 class="institution-name">
+                  Don Bosco Institute of Information Technology
+                </h3>
+                <span class="education-period">Sept. 2025 – June. 2027</span>
+              </div>
+              <p class="education-degree">
+                Master of Computer Applications (MCA), Computer Science
+              </p>
+              <p class="education-location">Delhi, DEL</p>
+              <p class="education-desc">
+                Currently pursuing MCA with a focus on advanced computing and
+                software development
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-circle"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="education-header">
+                <h3 class="institution-name">
+                  Institute of Information Technology and Management
+                </h3>
+                <span class="education-period">October 2022 - June. 2025</span>
+              </div>
+              <p class="education-degree">
+                Bachelor of Computer Applications (BCA), Computer Science
+              </p>
+              <p class="education-location">Delhi, DEL</p>
+              <div class="education-achievement">
+                <i class="fas fa-award"></i>
+                <span>Graduated with a CGPA of 7.0 on a 10-point scale</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Technical Expertise</span>
+          <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <i class="fas fa-code skill-icon"></i>
+              <h3>Technical Skills</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">Excel</span>
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">Tableau</span>
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <i class="fas fa-chart-line skill-icon"></i>
+              <h3>Data & Analytics</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Data Analysis</span>
+              <span class="skill-tag">Business Analytics</span>
+              <span class="skill-tag">EDA</span>
+              <span class="skill-tag">Data Visualization</span>
+              <span class="skill-tag">Revenue Forecasting</span>
+              <span class="skill-tag">Market Analysis</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <i class="fas fa-lightbulb skill-icon"></i>
+              <h3>Core Competencies</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Analytical Thinking</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Data Storytelling</span>
+              <span class="skill-tag">Stakeholder Management</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-category-header">
+              <i class="fas fa-users skill-icon"></i>
+              <h3>Soft Skills</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Communication</span>
+              <span class="skill-tag">Attention to Detail</span>
+              <span class="skill-tag">Adaptability</span>
+              <span class="skill-tag">Teamwork</span>
+              <span class="skill-tag">Time Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-comments"></i>
+              </div>
+              <h3 class="project-title">Chit-Chat</h3>
+              <a
+                href="https://chit-chat-app-abdy.onrender.com/login"
+                class="project-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="project-description">
+              Real-time chat application using the MERN stack with instant
+              messaging support
+            </p>
+            <ul class="project-features">
+              <li>User authentication using JWT</li>
+              <li>Responsive React UI</li>
+              <li>Real-time messaging with Socket.io</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Socket.io</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-tasks"></i>
+              </div>
+              <h3 class="project-title">Task Management System</h3>
+              <a
+                href="https://task-manager-project.streamlit.app/"
+                class="project-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="project-description">
+              Modular task management system with Python and Streamlit
+            </p>
+            <ul class="project-features">
+              <li>SQLite for persistent CRUD operations</li>
+              <li>Pandas-based analytics dashboard</li>
+              <li>Clean, scalable architecture</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Streamlit</span>
+              <span class="tech-tag">SQLite</span>
+              <span class="tech-tag">Pandas</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3 class="project-title">StockLen-AI</h3>
+              <a
+                href="https://github.com/anishsaudaaaa/StockLens-AI.git"
+                class="project-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+            <p class="project-description">
+              Stock price dashboard with LSTM models for prediction
+            </p>
+            <ul class="project-features">
+              <li>LSTM models for stock prediction</li>
+              <li>Data analysis with Excel & Python</li>
+              <li>Trend visualization & forecasts</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">LSTM</span>
+              <span class="tech-tag">Streamlit</span>
+              <span class="tech-tag">Data Analysis</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:Saudaanish103@gmail.com"
+                  >Saudaanish103@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Phone</h3>
+                <a href="tel:+919650276873">+91-9650276873</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Delhi Cantt-110010, New Delhi</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <a
+                  href="https://www.linkedin.com/in/anish-sauda-162b68307/"
+                  target="_blank"
+                  >linkedin.com/in/anish-sauda</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-cta">
+            <h3 class="cta-title">Let's Connect</h3>
+            <p class="cta-text">
+              I'm always open to discussing new opportunities, collaborations,
+              or just having a chat about technology and innovation.
+            </p>
+            <div class="cta-actions">
+              <a href="mailto:Saudaanish103@gmail.com" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i>
+                Send Email
+              </a>
+              <a
+                href="/Anish Sauda's  CV.pdf"
+                class="btn btn-secondary"
+                download
+              >
+                <i class="fas fa-download"></i>
+                Download CV
+              </a>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/anish-sauda-162b68307/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/anishsaudaaaa"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://x.com/_Saudaaaaa"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/_saudaaaaa/?hl=en"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span class="footer-logo-text">Anish Sauda</span>
+            <p class="footer-tagline">
+              Building intelligent solutions with data & code
+            </p>
+          </div>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <p class="footer-copyright">
+            &copy; 2025 Anish Sauda. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+        menuToggle.classList.toggle("active");
+      });
+
+      // Close mobile menu when clicking a link
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+          menuToggle.classList.remove("active");
+        });
+      });
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          if (targetId === "#") return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+
+      // Add scroll effect to navbar
+      window.addEventListener("scroll", () => {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>
